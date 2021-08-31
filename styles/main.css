@@ -56,17 +56,19 @@ input:hover {
     color: black;
 }
 
-.nav-link {
-    font-size: .82rem;
+a {
     text-decoration: none;
-    padding: .5rem .6rem;
 }
 
-.nav-link:hover {
+a:hover {
     text-decoration: underline;
 }
 
+.nav-link {
+    font-size: .82rem;
+    padding: .5rem .6rem;
 }
+
 #top-nav {
     display: flex;
     justify-content: flex-end;
