@@ -1,12 +1,14 @@
 * {
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    color: rgb(50, 50, 50);
 }
 
 body {
+    font-size: 1rem;
+    color: rgb(50, 50, 50);
     margin: 0;
 }
+
 div, input, img {
     display: block;
 }
@@ -32,12 +34,12 @@ input:focus {
 }
 
 input:hover {
-    box-shadow: 0 0 6px rgb(212, 212, 212);
+    box-shadow: 0 1px 4px rgb(215, 215, 215);
 }
 
 #search-btns {
     text-align: center;
-    margin: 1.8rem 0;
+    margin: 1.6rem;
 }
 
 .main-buttons {
@@ -80,3 +82,38 @@ a:hover {
     border-radius: 5rem;
 }
 
+footer {
+    font-size: .95rem;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#flex-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(214, 214, 214);
+    overflow: hidden;
+}
+
+footer, .ft-link {
+    color: rgb(116, 116, 116);
+}
+
+.ft-link {
+    display: inline-block;
+    font-size: .88rem;
+    margin: 0;
+    padding: .9rem;
+}
+
+#country {
+    font-size: .95rem;
+}
+
+@-moz-document url-prefix() {
+    #settings {
+        font-weight: 700;
+    }
+}
