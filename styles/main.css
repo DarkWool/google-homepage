@@ -18,15 +18,7 @@ input {
 }
 
 #main-logo {
-    margin: 0 auto 1.75rem auto;
-}
-
-#search-bar {
-    width: 30rem;
-    border: .1rem solid rgb(219, 219, 219);
-    border-radius: 30px;
-    padding: .8rem 3rem;
-    font-size: 1rem;
+    margin: 1rem auto 1.7rem auto;
 }
 
 input:focus {
@@ -45,11 +37,11 @@ input:hover {
 .main-buttons {
     background-color: #f8f9fa;
     color:rgb(75, 75, 75);
-    padding: .7rem 1rem;
-    margin: .3rem;
+    padding: .55rem 1rem;
+    margin: .25rem;
     border: 1px solid #f8f9fa;
     border-radius: .2rem;
-    font-size: .9rem;
+    font-size: .88rem;
 }
 
 .main-buttons:hover {
@@ -59,6 +51,7 @@ input:hover {
 }
 
 a {
+    color: rgb(50, 50, 50);
     text-decoration: none;
 }
 
@@ -75,8 +68,19 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0;
+    padding: .5rem;
 }
+
+/* Check if these 2 rules below are actually useful or not. 
+#search i {
+    position: absolute;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+*/
 
 #profile-pic {
     border-radius: 5rem;
@@ -116,4 +120,28 @@ footer, .ft-link {
     #settings {
         font-weight: 700;
     }
+}
+
+/* Latest Styles THAT ACTUALLY WORK!, CHECK THE NAMES AND CHANGE THEM TO SOMETHING MORE DESCRIPTIVE */
+#search-container {
+    margin: auto;
+    width: 36rem;
+    position: relative;
+}
+
+.icon-setup {
+    position: absolute;
+    top: calc(50% - 0.5em);
+    color: #9aa0a6;
+    text-align: left;
+    left: 15px;
+}
+
+#check {
+    width: 100%;
+    padding-left: 40px;
+    border: .1rem solid rgb(219, 219, 219);
+    border-radius: 20rem;
+    padding: 1rem 1rem 1rem 2.3rem;
+    font-size: 1rem;
 }

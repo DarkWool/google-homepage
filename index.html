@@ -7,15 +7,18 @@
         <link href="https://meyerweb.com/eric/tools/css/reset/reset.css" type="text/css" rel="stylesheet">
         -->
         <link href="/styles/main.css" type="text/css" rel="stylesheet">
-
+        <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     </head>
+
     <body>
         <nav id="top-nav">
             <a href="#" class="nav-link">Gmail</a>
             <a href="#" class="nav-link">Images</a>
-            <a href="#" class="nav-link">
+            <a href="#" class="nav-link" id="top-nav-apps">
                 <span class="material-icons">apps</span>
             </a>
             <a href="#" class="nav-link">
@@ -23,15 +26,18 @@
             </a>
         </nav>
 
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Standard logo of Google" id="main-logo">
-        <div id="search">
-            <span class="material-icons">search</span>
-            <input type="text" id="search-bar" autocomplete="off" autofocus required>
-        </div>
+        <div>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Standard logo of Google" id="main-logo">
 
-        <div id="search-btns">
-            <button type="submit" class="main-buttons">Google Search</button>
-            <button type="button" class="main-buttons">I'm Feeling Lucky</button>
+            <div id="search-container">
+                <label for="check" class="material-icons fa icon-setup">search</label>
+                <input id="check" type="text">
+            </div>
+
+            <div id="search-btns">
+                <button type="submit" class="main-buttons">Google Search</button>
+                <button type="button" class="main-buttons">I'm Feeling Lucky</button>
+            </div>
         </div>
 
         <!-- New Section -->
