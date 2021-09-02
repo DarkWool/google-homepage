@@ -3,42 +3,42 @@
     <head>
         <meta charset="UTF-8">
         <title>Hello World!</title>
-        <!--
-        <link href="https://meyerweb.com/eric/tools/css/reset/reset.css" type="text/css" rel="stylesheet">
-        -->
         <link href="/styles/main.css" type="text/css" rel="stylesheet">
-        <link rel="stylesheet" 
-          href=
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
 
     <body>
-        <nav id="top-nav">
-            <a href="#" class="nav-link">Gmail</a>
-            <a href="#" class="nav-link">Images</a>
-            <a href="#" class="nav-link" id="top-nav-apps">
-                <span class="material-icons">apps</span>
-            </a>
-            <a href="#" class="nav-link">
-                <img src="https://lh3.googleusercontent.com/ogw/ADea4I4kAntUv8dG7xr2Iqu7TR1eO1qdhTy8YeDehuzwzAw=s83-c-mo" alt="User profile image" width="32px" height="32px" id="profile-pic">
-            </a>
-        </nav>
+        <main>
+            <nav id="top-nav">
+                <a href="#" class="nav-link">Gmail</a>
+                <a href="#" class="nav-link">Images</a>
+                <a href="#" class="nav-link" id="top-nav-apps">
+                    <span class="material-icons">apps</span>
+                </a>
+                <a href="#" class="nav-link">
+                    <img src="https://lh3.googleusercontent.com/ogw/ADea4I4kAntUv8dG7xr2Iqu7TR1eO1qdhTy8YeDehuzwzAw=s83-c-mo" alt="User profile image" width="32px" height="32px" id="profile-pic">
+                </a>
+            </nav>
 
-        <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Standard logo of Google" id="main-logo">
-
-            <div id="search-container">
-                <label for="check" class="material-icons fa icon-setup">search</label>
-                <input id="check" type="text">
+            <div style="margin:1rem; min-width:370px;">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Standard logo of Google" id="main-logo">
+                <div id="search-container">
+                    <label for="check" class="material-icons fa icon-setup iconSearchLeft">search</label>
+                    <label for="check" class="material-icons fa icon-setup iconSearchRight">
+                        <img src="images/voiceSearch-icon.png" style="width: 14px;height: 100%;">
+                    </label>
+                    <input id="check" type="text">
+                </div>
+                <div id="search-btns">
+                    <button type="submit" class="main-buttons">Google Search</button>
+                    <button type="button" class="main-buttons">I'm Feeling Lucky</button>
+                </div>
+                <div id="select-country">
+                    <p id="select-country-text">Google offered in:&nbsp;</p><a href="#" id="select-country-link">Español (Latinoamérica)</a>
+                </div>
             </div>
-
-            <div id="search-btns">
-                <button type="submit" class="main-buttons">Google Search</button>
-                <button type="button" class="main-buttons">I'm Feeling Lucky</button>
-            </div>
-        </div>
+        </main>
 
         <!-- New Section -->
         <footer>
@@ -56,6 +56,5 @@
                 </div>
             </div>
         </footer>
-
     </body>
 </html>

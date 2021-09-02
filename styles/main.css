@@ -18,7 +18,7 @@ input {
 }
 
 #main-logo {
-    margin: 1rem auto 1.7rem auto;
+    margin: 12rem auto 1.7rem auto;
 }
 
 input:focus {
@@ -31,7 +31,7 @@ input:hover {
 
 #search-btns {
     text-align: center;
-    margin: 1.6rem;
+    margin: 1.6rem 1.6rem .85rem 1.6rem;
 }
 
 .main-buttons {
@@ -48,6 +48,7 @@ input:hover {
     border: 1px solid #dadce0;
     border-radius: .2rem;
     color: black;
+    box-shadow: 0 1px 2px #e8e8e8;
 }
 
 a {
@@ -70,17 +71,6 @@ a:hover {
     align-items: center;
     padding: .5rem;
 }
-
-/* Check if these 2 rules below are actually useful or not. 
-#search i {
-    position: absolute;
-}
-
-.icon {
-    padding: 10px;
-    min-width: 40px;
-}
-*/
 
 #profile-pic {
     border-radius: 5rem;
@@ -122,26 +112,46 @@ footer, .ft-link {
     }
 }
 
-/* Latest Styles THAT ACTUALLY WORK!, CHECK THE NAMES AND CHANGE THEM TO SOMETHING MORE DESCRIPTIVE */
 #search-container {
     margin: auto;
-    width: 36rem;
+    max-width: 36.75rem;
     position: relative;
 }
 
 .icon-setup {
+    font-size: 20px !important;
     position: absolute;
     top: calc(50% - 0.5em);
     color: #9aa0a6;
+}
+
+.iconSearchLeft {
     text-align: left;
     left: 15px;
 }
 
+.iconSearchRight {
+    text-align: right;
+    right: 22px;
+}
+
 #check {
     width: 100%;
-    padding-left: 40px;
     border: .1rem solid rgb(219, 219, 219);
     border-radius: 20rem;
-    padding: 1rem 1rem 1rem 2.3rem;
+    padding: .8rem 3.4rem .8rem 2.9rem;
     font-size: 1rem;
+}
+
+#select-country {
+    text-align: center;
+    font-size: small;
+}
+
+#select-country-text {
+    display: inline-block;
+}
+
+#select-country-link {
+    color: #1a0dab;
 }
